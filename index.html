@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Criar conta | Josy MAKES</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="signup-page">
+  <header class="site-header">
+    <a class="brand brand-round" href="index.html" aria-label="Josy Makes - início">
+      <span class="brand-script">Josy</span><small>MAKES</small><span class="brand-heart">♥</span>
+    </a>
+    <div class="header-actions">
+      <label class="search-box"><input type="search" placeholder="O que você procura?"><span>⌕</span></label>
+      <a class="header-icon" href="index.html" aria-label="Minha conta">♙</a>
+      <a class="header-icon cart" href="#" aria-label="Carrinho">🛒</a>
+    </div>
+  </header>
+
+  <main class="signup-layout">
+    <section class="signup-form-panel">
+      <h1>Criar nova conta</h1>
+      <form id="signupForm" novalidate>
+        <div class="field-row">
+          <span class="field-icon">♙</span>
+          <label for="fullName">Nome completo</label>
+          <input id="fullName" name="fullName" type="text" placeholder="Nome completo" autocomplete="name" required>
+        </div>
+        <div class="field-row">
+          <span class="field-icon">✉</span>
+          <label for="email">E-mail</label>
+          <input id="email" name="email" type="email" placeholder="Email" autocomplete="email" required>
+        </div>
+        <div class="field-row">
+          <span class="field-icon">☎</span>
+          <label for="phone">Telefone (opcional)</label>
+          <input id="phone" name="phone" type="tel" placeholder="Telefone (opcional)" autocomplete="tel">
+        </div>
+        <div class="field-row">
+          <span class="field-icon">▣</span>
+          <label for="password">Senha</label>
+          <div class="password-wrap"><input id="password" name="password" type="password" placeholder="Mínimo de 6 caracteres" minlength="6" required><button class="toggle-password" type="button" data-target="password" aria-label="Mostrar senha">◉</button></div>
+        </div>
+        <div class="field-row">
+          <span class="field-icon">▣</span>
+          <label for="confirmPassword">Confirmar senha</label>
+          <div class="password-wrap"><input id="confirmPassword" name="confirmPassword" type="password" placeholder="Confirme sua senha" minlength="6" required><button class="toggle-password" type="button" data-target="confirmPassword" aria-label="Mostrar confirmação de senha">◉</button></div>
+        </div>
+        <p id="signupMessage" class="form-message" role="status"></p>
+        <button class="primary-button signup-button" type="submit">Cadastrar</button>
+      </form>
+      <p class="login-line">Já tem uma conta? <a href="index.html" id="loginLink">Faça login</a></p>
+    </section>
+
+    <aside class="welcome-panel">
+      <div class="welcome-copy">
+        <h2>Seja bem-vinda!</h2>
+        <p>Cadastre-se e tenha acesso a ofertas exclusivas,<br class="desktop-only"> novidades e muito mais.</p>
+      </div>
+      <div class="beauty-still-life" aria-label="Ilustração decorativa de cosméticos">
+        <div class="leaf leaf-one"></div><div class="leaf leaf-two"></div>
+        <div class="cream-jar jar-one"><i></i></div>
+        <div class="bottle bottle-one"><i></i></div>
+        <div class="bottle bottle-two"><i></i></div>
+        <div class="lipstick"><i></i></div>
+        <div class="cream-jar jar-two"><i></i></div>
+        <div class="flower">✿</div>
+      </div>
+    </aside>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
