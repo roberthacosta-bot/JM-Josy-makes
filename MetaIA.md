@@ -1,6 +1,6 @@
 # Respostas da Meta IA
 
-Este arquivo reúne as três execuções realizadas com a Meta IA por Arianne. O conteúdo foi organizado em seções e tabelas para facilitar a leitura. As recomendações foram mantidas conforme o documento enviado.
+Este arquivo reúne as três execuções realizadas com a Meta IA por Arianne. O conteúdo foi organizado em seções e tabelas para facilitar a leitura.
 
 ## Experimento 1
 
